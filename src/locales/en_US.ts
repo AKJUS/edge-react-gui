@@ -588,6 +588,7 @@ const strings = {
   settings_monero: 'Monero LWS Server',
   settings_monero_edge_lws: 'Edge LWS',
   settings_monero_custom: 'Custom Light Wallet Server',
+  settings_monero_custom_lws: 'Custom LWS',
   settings_monero_lws_info:
     'Edge uses Monero Light Wallet Servers (LWS) to scan for transactions. For enhanced privacy, you can run your own Monero LWS.',
   settings_monerod: 'Monerod Server',
@@ -2440,6 +2441,7 @@ const strings = {
   // Accessibility Labels
   wallet_settings_label: 'Wallet settings',
   wallet_settings_title: 'Wallet Settings',
+  wallet_settings_wallet_name: 'Wallet Name',
 
   // Reward Card
   rewards_card_error_retrieving_cards:
