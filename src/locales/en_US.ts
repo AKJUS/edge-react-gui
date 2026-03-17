@@ -589,6 +589,8 @@ const strings = {
   settings_monero_edge_lws: 'Edge LWS',
   settings_monero_custom: 'Custom Light Wallet Server',
   settings_monero_custom_lws: 'Custom LWS',
+  settings_monero_edge_lws_imported_wallet_error:
+    'Edge LWS is not available for imported wallets. Use a custom LWS or Full Node instead.',
   settings_monero_lws_info:
     'Edge uses Monero Light Wallet Servers (LWS) to scan for transactions. For enhanced privacy, you can run your own Monero LWS.',
   settings_monerod: 'Monerod Server',
