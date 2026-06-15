@@ -186,7 +186,7 @@
     "url": "^0.11.0",
     "url-parse": "^1.5.2",
     "use-context-selector": "^2.0.0",
-    "yaob": "^0.3.12",
+    "yaob": "^0.4.0",
     "yavent": "^0.1.5",
     "zcashname-sdk": "^0.7.2"
   },
