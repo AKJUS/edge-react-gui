@@ -126,7 +126,7 @@
     "r3-hack": "./scripts/r3-hack",
     "react": "19.0.0",
     "react-native": "0.79.2",
-    "react-native-airship": "^0.2.12",
+    "react-native-airship": "^0.3.0",
     "react-native-battery-optimization-check": "^1.0.8",
     "react-native-bootsplash": "^6.3.8",
     "react-native-confetti-cannon": "^1.5.2",
