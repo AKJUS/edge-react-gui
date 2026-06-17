@@ -6,6 +6,7 @@
 - added: Logbox disable option to env.json
 - added: Reverse-resolve recipient addresses to ENS / Unstoppable Domains / ZNS names in the send flow, address modal, and transaction history.
 - changed: Migrate package manager from yarn to npm.
+- fixed: Android build failure from the home screen long-press shortcuts feature, caused by an expo-quick-actions Kotlin compile error under Kotlin 2.3.
 
 ## 4.49.0 (staging)
 
