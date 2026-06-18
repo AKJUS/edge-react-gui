@@ -17,7 +17,7 @@ PODS:
   - DoubleConversion (1.1.6)
   - edge-core-js (2.46.0):
     - React-Core
-  - edge-currency-accountbased (4.83.0):
+  - edge-currency-accountbased (4.84.0):
     - React-Core
   - edge-currency-plugins (3.10.0):
     - React-Core
@@ -1637,7 +1637,7 @@ PODS:
     - Yoga
   - react-native-mail (6.1.1):
     - React-Core
-  - react-native-mymonero-core (0.3.4):
+  - react-native-monero (0.1.0):
     - React-Core
   - react-native-netinfo (11.4.1):
     - React-Core
@@ -2939,7 +2939,7 @@ DEPENDENCIES:
   - react-native-in-app-review (from `../node_modules/react-native-in-app-review`)
   - react-native-keyboard-controller (from `../node_modules/react-native-keyboard-controller`)
   - react-native-mail (from `../node_modules/react-native-mail`)
-  - react-native-mymonero-core (from `../node_modules/react-native-mymonero-core`)
+  - react-native-monero (from `../node_modules/react-native-monero`)
   - "react-native-netinfo (from `../node_modules/@react-native-community/netinfo`)"
   - react-native-performance (from `../node_modules/react-native-performance`)
   - react-native-piratechain (from `../node_modules/react-native-piratechain`)
@@ -3185,8 +3185,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-keyboard-controller"
   react-native-mail:
     :path: "../node_modules/react-native-mail"
-  react-native-mymonero-core:
-    :path: "../node_modules/react-native-mymonero-core"
+  react-native-monero:
+    :path: "../node_modules/react-native-monero"
   react-native-netinfo:
     :path: "../node_modules/@react-native-community/netinfo"
   react-native-performance:
@@ -3341,7 +3341,7 @@ SPEC CHECKSUMS:
   disklet: ef8ef081e35a73fbed579888d29e49edc2f327cc
   DoubleConversion: cb417026b2400c8f53ae97020b2be961b59470cb
   edge-core-js: f6089b99b3fd6fbe5c4d142c024fa84023302330
-  edge-currency-accountbased: b4fc0fbc6565374858db6fc37f1bb871a39268aa
+  edge-currency-accountbased: 6e15e71b332a0d9db3d265bcedee4b0741d2a6c3
   edge-currency-plugins: a52a61270c53d48edf8a9fc08fe69f52afa5ca0e
   edge-exchange-plugins: c310524a4d20fb514e23ecb403713ef4bd3907f6
   edge-login-ui-rn: 5b9c03326583d1dd4839ca34d065b2b75af5870f
@@ -3413,7 +3413,7 @@ SPEC CHECKSUMS:
   react-native-in-app-review: 668f4c80d7f95945e0ad7833e98c466cb40d6808
   react-native-keyboard-controller: c8968215c7ecdfc43663cfaf9ca991aad4179815
   react-native-mail: 6e83813066984b26403d3fdfe79ac7bb31857e3c
-  react-native-mymonero-core: 89717c706af7024c9100ccb6c3f22a587ccc8f09
+  react-native-monero: 74d4e6ded309922493a58ab50d1ab64848d10262
   react-native-netinfo: cec9c4e86083cb5b6aba0e0711f563e2fbbff187
   react-native-performance: f0471c84eda0f6625bd42a1f515b1b216f284b12
   react-native-piratechain: ee2659672d55c924fba54a2bec0e86b027c5eb9b
