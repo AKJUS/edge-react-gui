@@ -2,17 +2,19 @@
 
 ## Unreleased (develop)
 
-- added: Home screen long-press shortcuts for "⚠️ Save 2FA First!" warning and "Contact Support".
-- added: Logbox disable option to env.json
-- added: Reverse-resolve recipient addresses to ENS / Unstoppable Domains / ZNS names in the send flow, address modal, and transaction history.
-- changed: Migrate package manager from yarn to npm.
-- fixed: Android build failure from the home screen long-press shortcuts feature, caused by an expo-quick-actions Kotlin compile error under Kotlin 2.3.
-
 ## 4.49.0 (staging)
 
+- added: Monero wallet import support
+- added: Monero wallet settings to choose between a Light Wallet Server and a monerod full node backend
+- added: Home screen long-press shortcuts for "⚠️ Save 2FA First!" warning and "Contact Support".
 - added: Honor `af` affiliate parameter on `deep.edge.app` deep links, activating the promotion alongside any inner payload (e.g. private-key import).
 - added: Show swap KYC/terms modal for NExchange
 - added: Nym mixnet warning in Stake, Unstake, and Claim Rewards scenes
+- added: Logbox disable option to env.json
+- added: Reverse-resolve recipient addresses to ENS / Unstoppable Domains / ZNS names in the send flow, address modal, and transaction history.
+- changed: Migrate Monero to the react-native-monero implementation, replacing edge-currency-monero
+- changed: Migrate package manager from yarn to npm.
+- fixed: Android build failure from the home screen long-press shortcuts feature, caused by an expo-quick-actions Kotlin compile error under Kotlin 2.3.
 
 ## 4.48.2 (2026-06-03)
 
