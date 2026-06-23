@@ -28,6 +28,7 @@
 - **Files**: `.tsx` for React components, `.ts` for utilities/hooks
 - **Error Handling**: Use proper error boundaries, avoid throwing in render
 - **Text Components**: Use `EdgeText`, `Paragraph`, `SmallText`, `WarningText` instead of raw text
+- **Component Reuse**: Strongly prefer reusing existing shared components over building new ones or dropping to raw library primitives. Before adding UI, look for a component that already covers the need (e.g. text via `EdgeText`), and keep color, sizing, and styling driven by `useTheme()` rather than hard-coded per call site. When nothing suitable exists, add a reusable, themed definition instead of a one-off
 - **Hooks**: Custom hooks in `src/hooks/`, follow `use*` naming convention
 - **Testing**: Jest with React Native Testing Library, tests in `__tests__/` directories
 
