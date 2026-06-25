@@ -337,6 +337,7 @@ export function WalletListMenuModal(props: Props): React.JSX.Element {
         return (
           <EdgeTouchableOpacity
             key={option.value}
+            testID={`walletListMenu_${option.value}`}
             onPress={async () => {
               await optionAction(option.value)
             }}
